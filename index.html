@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <form id="form" name="form">
+            <label for="form">Product Form</label>
+            <input type="text" id="ad" placeholder="Ürün Adı">
+            <input type="text" id="model" placeholder="Ürün Modeli">
+            <input type="text" id="fiyat" placeholder="Ürün Fiyat">
+            <input type="text" id="arama" placeholder="Ürün Arayınız">
+            <button id="btn">Ekle</button>
+        </form>
+        <hr>
+        <div class="product-info">
+            <div class="marka">
+                <p>Marka</p>
+            </div>
+            <div class="model">
+                <p>Model</p>
+            </div>
+            <div class="fiyat">
+                <p>Fiyat</p>
+            </div>
+            <div class="sil">
+                <p>Sil</p>
+            </div>
+        </div>
+        <div class="info">
+        </div>
+    </div>
+    <script src="api.js"></script>
+</body>
+
+</html>

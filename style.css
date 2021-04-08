@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.trash-btn {
+    cursor: pointer;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
+
+label {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+input {
+    all: initial;
+    border: 2px solid cadetblue;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+.alert {
+   width: 90%;
+   text-align: center;
+   margin: 1rem 0rem;
+}
+
+.alert-success {
+    background-color: yellowgreen;
+    padding: 1rem;
+}
+
+.alert-danger {
+    padding: 1rem;
+    background-color: red;
+}
+
+button{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.product-info {
+    display: flex;
+    width: 90%;
+    margin-top: 1.3rem;
+}
+
+.product-info > div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.info {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-details {
+    width: 100%;
+    display: flex;
+}
+
+.info p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 25%;
+    padding: 1rem;
+    border: 1px solid black;
+}
